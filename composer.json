@@ -1,0 +1,36 @@
+{
+    "name": "huncwot/moderatortools",
+    "type": "phpbb-extension",
+    "description": "",
+    "homepage": "https://github.com/huncwot/phpbb-m6f-moderatortools",
+    "version": "1.0.0-dev",
+    "time": "2018-10-22",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "huncwot",
+            "email": "rafalek.chrapalek@gmail.com",
+            "homepage": "https://mazda6forum.pl/memberlist.php?mode=viewprofile&u=2967",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "~1.0"
+    },
+    "require-dev": {
+        "phing/phing": "^2.16"
+    },
+    "extra": {
+        "display-name": "Moderator Tools",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.2.3,<3.3.0"
+        },
+        "version-check": {
+            "host": "huncwot.github.io",
+            "directory": "/phpbb/extensions/moderatortools",
+            "filename": "versions.json",
+            "ssl": true
+        }
+    }
+}
